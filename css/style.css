@@ -53,8 +53,11 @@ body {
     
 }
 
-.text-content {
+.text, .text-content {
     font-size: 1.25rem;
+}
+
+.text-content {
     text-align: justify;
 }
 
@@ -212,7 +215,25 @@ body {
     bottom: 0;
 }
 
-.image-column {
-    padding: 0;
-    margin: 0;
+.dining-line::before,
+.dining-line::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background: #D4AA54;
+    left: 25%;
+}
+
+.dining-line::before {
+    top: 0;
+
+}
+
+.dining-line::after {
+    bottom: 0;
+}
+
+.experience {
+    height: 42.5rem;
 }
