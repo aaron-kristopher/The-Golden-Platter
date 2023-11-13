@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Golden Platter</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+
+    <!-- Animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="../imgs/logo.png" alt="Bootstrap" width="48" height="48" />
+        </a>
+
+        <!-- Navbar Toggler -->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- SideBar -->
+        <div
+          class="sidebar offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- Sidebar Header -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h6 class="offcanvas-title" id="offcanvasNavbarLabel">
+              The Golden Platter
+            </h6>
+            <button
+              type="button"
+              class="btn-close btn-close-white shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!-- Sidebar Body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul
+              class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+            >
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+
+            <!-- Reservation Btn -->
+            <div
+              class="d-flex justify-content-center align-items-center flex-column flex-lg-row"
+            >
+              <button
+                type="button"
+                class="btn btn-secondary"
+                style="
+                  --bs-btn-padding-y: 0.5rem;
+                  --bs-btn-padding-x: 1.5rem;
+                  --bs-btn-font-size: 0.75rem;
+                  --bs-btn-border-radius: 0;
+                "
+              >
+                Reservation
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+
+    <section
+      class="d-flex min-vh-100 pt-5 mb-5"
+      lc-helper="background"
+      style="
+        background: url(../imgs/hero-bg.jpg) center / cover no-repeat;
+        background-color: #3a3a3a;
+        background-blend-mode: overlay;
+      "
+    >
+      <div class="container align-self-center text-light">
+        <div class="lc-block mb-4 content text-left">
+          <div editable="rich">
+            <h1 class="px-md-5 text-secondary text-uppercase hero-upper-line">
+              Elevating
+            </h1>
+            <h1 class="px-md-5 text-secondary text-uppercase">Taste To Art</h1>
+          </div>
+        </div>
+
+        <div class="lc-block">
+          <div editable="rich">
+            <div class="row content">
+              <div class="col-md-5 hero-lower-line"></div>
+              <div class="col-md-3 order-md-first">
+                <p class="lead text-uppercase">
+                  Since 2003 &middot; San Carlos City
+                </p>
+              </div>
+              <div class="col-md-4">
+                <p class="lead text-md-end">
+                  Elevating your epicurean desires with an array of world
+                  cuisines, each dish meticulously prepared to absolute
+                  perfection.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero -->
+
+    <!-- About Journey -->
+
+    <section class="container py-5">
+      <div class="row">
+        <div class="d-none d-lg-block col-lg-6 p-5 content">
+          <div class="lc-block img-line-top pr-2">
+            <span class="img-line-bottom"></span>
+            <img
+              class="img-fluid"
+              alt="Steak"
+              src="../imgs/steak.jpg"
+              style="height: 42.5rem; width: 100%; object-fit: cover"
+            />
+          </div>
+        </div>
+        <div class="col-lg-6 ps-lg-5 pt-5">
+          <!-- /lc-block -->
+          <div class="lc-block content mb-3 text-white px-md-3">
+            <div editable="rich">
+              <p class="lead text-uppercase about-line pb-3">About Us</p>
+              <h1 class="text-secondary text-uppercase">Our</h1>
+              <h1 class="text-secondary text-uppercase">Journey</h1>
+              <p class="mt-5 text-content text-justify">
+                Nestled in the heart of the city, The Golden Platter is not just
+                a restaurant; it's a journey through time, a celebration of
+                flavors, and an embodiment of refined taste. Our story begins
+                with a vision to create a dining experience that transcends mere
+                sustenance, a place where every meal is a symphony of flavors
+                and every moment a cherished memory.
+              </p>
+            </div>
+          </div>
+          <div class="lc-block pt-5 px-md-3">
+            <button
+              type="button"
+              class="btn btn-outlined"
+              style="
+                --bs-btn-padding-y: 0.5rem;
+                --bs-btn-padding-x: 1.5rem;
+                --bs-btn-font-size: 1rem;
+                --bs-btn-border-radius: 0;
+              "
+            >
+              Contact Us
+            </button>
+          </div>
+          <!-- /lc-block -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Journey -->
+
+    <!-- Our Menu -->
+
+    <section class="py-5 mt-8 content">
+      <div class="container pt-5">
+        <div class="row justify-content-md-center content">
+          <div class="col">
+            <p class="mb-4 lead text-center text-uppercase service-line">
+              Culinary Symphony
+            </p>
+            <h2
+              class="mb-4 display-5 text-center text-secondary text-uppercase"
+            >
+              From Our Menu
+            </h2>
+            <p class="mb-5 text-center text-content">
+              Below is a collection of masterpieces that have been carefully
+              crafted by our talented chefs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container overflow-hidden">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 p-4">
+            <div class="lc-block">
+              <img
+                class="img-fluid"
+                alt="Steak"
+                src="../imgs/vegitarian-risotto.jpg"
+                style="
+                  height: 22.5rem;
+                  width: 100%;
+                  object-fit: cover;
+                  object-position: bottom;
+                "
+              />
+
+              <div class="row py-3">
+                <p class="col-6 lead text-uppercase text-start">
+                  Vegitarian Risotto
+                </p>
+                <div
+                  class="d-flex col-6 align-items-center justify-content-end"
+                >
+                  <p class="text-secondary text-content">Php 480</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-4">
+            <div class="lc-block">
+              <img
+                class="img-fluid"
+                alt="Steak"
+                src="../imgs/pan-seared-halibut.jpg"
+                style="
+                  height: 22.5rem;
+                  width: 100%;
+                  object-fit: cover;
+                  object-position: bottom;
+                "
+              />
+
+              <div class="row py-3">
+                <p class="col-6 lead text-uppercase text-start">
+                  Pan-seared Halibut
+                </p>
+                <div
+                  class="d-flex col-6 align-items-center justify-content-end"
+                >
+                  <p class="text-secondary text-content">Php 1,280</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-4 mx-auto">
+            <div class="lc-block">
+              <img
+                class="img-fluid"
+                alt="Steak"
+                src="../imgs/lobster-thermidol.jpg"
+                style="
+                  height: 22.5rem;
+                  width: 100%;
+                  object-fit: cover;
+                  object-position: bottom;
+                "
+              />
+
+              <div class="row py-3">
+                <p class="col-6 lead text-uppercase text-start">
+                  Lobster Thermidol
+                </p>
+                <div
+                  class="d-flex col-6 align-items-center justify-content-end"
+                >
+                  <p class="text-secondary text-content">Php 1,650</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lc-block pt-5 px-md-3 justify-content-center d-flex">
+        <button
+          type="button"
+          class="btn btn-outlined"
+          style="
+            --bs-btn-padding-y: 0.5rem;
+            --bs-btn-padding-x: 1rem;
+            --bs-btn-font-size: 1rem;
+            --bs-btn-border-radius: 0;
+          "
+        >
+          View Full Menu
+          <i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+      <span class="rect-background"></span>
+    </section>
+
+    <!-- Information Section -->
+
+    <section class="container-fluid">
+      <div class="row">
+        <!-- Image column taking up the entire width -->
+        <div class="col-lg-6 image-column">
+          <img src="../imgs/hero-bg.jpg" class="img-fluid" alt="Your Image" />
+        </div>
+        <!-- Text column with default container padding -->
+        <div class="col-lg-6 order-lg-first me-0 ms-lg-4 ms-md-5">
+          <div class="p-4">
+            <h2>Your Text Goes Here</h2>
+            <p>Additional text content...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Information Section -->
+
+    <!-- Our Menu -->
+
+    <!-- Bootstrap 5 Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

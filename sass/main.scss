@@ -1,0 +1,44 @@
+// custom variables
+
+
+// colors
+
+$black: #0B1315;
+$white: #FFFBFF;
+
+$gold-100: #F8F1E3;
+$gold-200: #F0E1C2;
+$gold-300: #E7D0A2;
+$gold-400: #DFC081;
+$gold-500: #D4AA54;
+$gold-600: #BF9031;
+$gold-700: #926E25;
+$gold-800: #664D1A;
+$gold-900: #392B0E;
+
+$blue-100: #70A1C0;
+$blue-200: #538EB4;
+$blue-300: #44799A;
+$blue-400: #2B4C62;
+$blue-500: #2B4C62;
+$blue-600: #1E3645;
+$blue-700: #122029;
+$blue-800: #0D181E;
+$blue-900: #090F14;
+
+$primary: $blue-700;
+$secondary: $gold-500; 
+
+
+// fonts
+$headings-font-family: 'Prata', serif;
+
+$h1-font-size: 5.5rem; 
+$h2-font-size: 5rem;
+$h3-font-size: 4.5rem;
+$h4-font-size: 4rem;
+$h5-font-size: 3.5rem;
+$h6-font-size: 3rem;
+
+//import bootstrap/
+@import '../node_modules/bootstrap/scss/bootstrap';
