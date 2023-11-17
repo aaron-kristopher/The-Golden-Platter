@@ -246,3 +246,49 @@ body {
     min-height: 50vh;
 
 }
+
+.chef-info-line::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    background: #D4AA54;
+    left: 20%;
+    top: 0;
+}
+
+.chef-info {
+    background: #122029;
+
+}
+
+.reservation-section {
+    background-image: url("../imgs/tables.jpg");
+    object-fit: contain;
+    background-position: 40% 80%;
+    height: 23.75rem;
+    background-color: #262626;
+    background-blend-mode: overlay;
+}
+
+.footer-text-header {
+    font-size: 1.875rem;
+}
+
+.footer-contact-us {
+    font-size: 1.25rem;
+}
+
+.btn-circle {
+    padding: 0;
+    height: 3rem;
+    width: 3rem;
+    background: #D4AA54;
+    border-radius: 25px;
+    border-color: transparent;
+    transition: 300ms;
+}
+
+.btn-circle:hover {
+    background: #DFC081;
+}
