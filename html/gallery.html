@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Golden Platter</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+
+    <!-- Animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="../imgs/logo.png" alt="Bootstrap" width="48" height="48" />
+        </a>
+
+        <!-- Navbar Toggler -->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- SideBar -->
+        <div
+          class="sidebar offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- Sidebar Header -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h6 class="offcanvas-title" id="offcanvasNavbarLabel">
+              The Golden Platter
+            </h6>
+            <button
+              type="button"
+              class="btn-close btn-close-white shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!-- Sidebar Body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul
+              class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+            >
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="index.html">Menu</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+
+            <!-- Reservation Btn -->
+            <div
+              class="d-flex justify-content-center align-items-center flex-column flex-lg-row"
+            >
+              <button
+                type="button"
+                class="btn btn-secondary"
+                style="
+                  --bs-btn-padding-y: 0.5rem;
+                  --bs-btn-padding-x: 1.5rem;
+                  --bs-btn-font-size: 0.75rem;
+                  --bs-btn-border-radius: 0;
+                "
+              >
+                Reservation
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <s<section class="container-fluid">
+        <div class="row mt-3 position-relative">
+            <!-- Background Image -->
+            <div class="col-lg px-0 image-responsive">
+                <img
+                    src="../imgs/dining-experience.jpg"
+                    class="img-fluid h-100 p-5"
+                    style="object-fit: cover"
+                    alt="Picture of a plate with food"
+                />
+            </div>
+        
+            <!-- Overlay Image (Transparent) -->
+            <div class="overlay-image position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                <img
+                    src="../imgs/what-we-offer.png"
+                    class="img-fluid"
+                    alt="What we offer"
+                />
+            </div>
+        </div>
+    
+        <!-- Row for buttons with spacing -->
+        <div class="row mt-3">
+            <div class="col-lg-1 order-lg-first"></div>
+            <div class="col-lg px-0 d-flex">
+
+                <div class="lc-block px-md-3">
+                    <!-- Button 1 -->
+                    <button
+                        type="button"
+                        class="btn btn-outlined me-2 ms-4" 
+                        style="
+                            --bs-btn-padding-y: 0.5rem;
+                            --bs-btn-padding-x: 1.5rem;
+                            --bs-btn-font-size: 1rem;
+                            --bs-btn-border-radius: 0;
+                        "
+                    >
+                        Contact Us
+                    </button>
+                
+                    <!-- Button 2 -->
+                    <button
+                        type="button"
+                        class="btn btn-outlined me-2 ms-4" 
+                        style="
+                            --bs-btn-padding-y: 0.5rem;
+                            --bs-btn-padding-x: 1.5rem;
+                            --bs-btn-font-size: 1rem;
+                            --bs-btn-border-radius: 0;
+                        "
+                    >
+                        Button 2
+                    </button>
+                
+                    <!-- Button 3 -->
+                    <button
+                        type="button"
+                        class="btn btn-outlined me-2 ms-4" 
+                        style="
+                            --bs-btn-padding-y: 0.5rem;
+                            --bs-btn-padding-x: 1.5rem;
+                            --bs-btn-font-size: 1rem;
+                            --bs-btn-border-radius: 0;
+                        "
+                    >
+                        Button 3
+                    </button>
+                
+                    <!-- Button 4 -->
+                    <button
+                        type="button"
+                        class="btn btn-outlined ms-4" 
+                        style="
+                            --bs-btn-padding-y: 0.5rem;
+                            --bs-btn-padding-x: 1.5rem;
+                            --bs-btn-font-size: 1rem;
+                            --bs-btn-border-radius: 0;
+                        "
+                    >
+                        Button 4
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-1 order-lg-first"></div>
+            <div class="col-md-3 mb-4 ms-4">
+                <img src="../imgs/lobster.png" class="img-fluid" alt="Gallery Image 1">
+            </div>
+            <div class="col-md-3 mb-4 ms-4">
+                <img src="../imgs/panna-cotta.png" class="img-fluid" alt="Gallery Image 2">
+            </div>
+            <div class="col-md-3 mb-4 ms-4">
+                <img src="../imgs/vegetable-salad.jpg" class="img-fluid" alt="Gallery Image 3">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-1 order-lg-first"></div>
+            <div class="col-md-3 mb-4 ms-4">
+                <img src="../imgs/lobster.png" class="img-fluid" alt="Gallery Image 1">
+            </div>
+            <div class="col-md-3 mb-4 ms-4">
+                <img src="../imgs/panna-cotta.png" class="img-fluid" alt="Gallery Image 2">
+            </div>
+            <div class="col-md-3 mb-4 ms-4">
+                <img src="../imgs/vegetable-salad.jpg" class="img-fluid" alt="Gallery Image 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid p-0">
+        <div class="jumbotron jumbotron-fluid bg-cover text-white d-flex align-items-center">
+            <div class="container text-center">
+                <h1 class="display-4">RESERVE YOUR TABLE</h1>
+                <div class="lc-block pt-5 px-md-3 justify-content-center d-flex">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap 5 Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
