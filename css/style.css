@@ -237,3 +237,12 @@ body {
 .experience {
     height: 42.5rem;
 }
+
+.bg-cover {
+    background-image: url("../imgs/tables.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+
+}
