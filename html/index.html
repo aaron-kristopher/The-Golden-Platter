@@ -1,423 +1,430 @@
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>The Golden Platter</title>
-      <link rel="icon" type="image/x-icon" href="/imgs/logo.png">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Golden Platter</title>
+    <link rel="icon" type="image/x-icon" href="/imgs/logo.png" />
 
-      <!-- Google Fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Prata&display=swap"
-        rel="stylesheet"
-      />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Prata&display=swap"
+      rel="stylesheet"
+    />
 
-      <!-- Icons -->
-      <script src="https://kit.fontawesome.com/d18c999477.js" crossorigin="anonymous"></script>
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
-        crossorigin="anonymous"
-      />
+    <!-- Icons -->
 
-      <!-- Animations -->
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
+    <script
+      src="https://kit.fontawesome.com/d18c999477.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
 
-      <!-- Custom CSS -->
-      <link rel="stylesheet" href="../css/main.min.css" />
-      <link rel="stylesheet" href="../css/style.css" />
-    </head>
-    <body>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-        <div class="container">
-          <!-- Logo -->
-          <a class="navbar-brand" href="index.html">
-            <img src="../imgs/logo.png" alt="Bootstrap" width="48" height="48" />
-          </a>
+    <!-- Animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-          <!-- Navbar Toggler -->
-          <button
-            class="navbar-toggler shadow-none border-0"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="../imgs/logo.png" alt="Bootstrap" width="48" height="48" />
+        </a>
 
-          <!-- SideBar -->
-          <div
-            class="sidebar offcanvas offcanvas-start"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <!-- Sidebar Header -->
-            <div class="offcanvas-header text-white border-bottom">
-              <h6 class="offcanvas-title" id="offcanvasNavbarLabel">
-                The Golden Platter
-              </h6>
+        <!-- Navbar Toggler -->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- SideBar -->
+        <div
+          class="sidebar offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- Sidebar Header -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h6 class="offcanvas-title" id="offcanvasNavbarLabel">
+              The Golden Platter
+            </h6>
+            <button
+              type="button"
+              class="btn-close btn-close-white shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!-- Sidebar Body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul
+              class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+            >
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+
+            <!-- Reservation Btn -->
+            <div
+              class="d-flex justify-content-center align-items-center flex-column flex-lg-row"
+            >
               <button
                 type="button"
-                class="btn-close btn-close-white shadow-none"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-
-            <!-- Sidebar Body -->
-            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
-              <ul
-                class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
-              >
-                <li class="nav-item mx-3">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item mx-3">
-                  <a class="nav-link" href="#">Menu</a>
-                </li>
-                <li class="nav-item mx-3">
-                  <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item mx-3">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-              </ul>
-
-              <!-- Reservation Btn -->
-              <div
-                class="d-flex justify-content-center align-items-center flex-column flex-lg-row"
-              >
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  style="
-                    --bs-btn-padding-y: 0.5rem;
-                    --bs-btn-padding-x: 1.5rem;
-                    --bs-btn-font-size: 0.75rem;
-                    --bs-btn-border-radius: 0;
-                  "
-                >
-                  Reservation
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Hero -->
-
-      <section
-        class="d-flex min-vh-100 pt-5 mb-5"
-        lc-helper="background"
-        style="
-          background: url(../imgs/hero-bg.jpg) center / cover no-repeat;
-          background-color: #262626;
-          background-blend-mode: overlay;
-        "
-      >
-        <div class="container align-self-center text-light">
-          <div class="lc-block mb-4 content text-left">
-            <div editable="rich">
-              <h1 class="px-md-5 text-secondary text-uppercase hero-upper-line">
-                Elevating
-              </h1>
-              <h1 class="px-md-5 text-secondary text-uppercase">Taste To Art</h1>
-            </div>
-          </div>
-
-          <div class="lc-block">
-            <div editable="rich">
-              <div class="row content">
-                <div class="col-md-5 hero-lower-line"></div>
-                <div class="col-md-3 order-md-first">
-                  <p class="lead text-uppercase">
-                    Since 2003 &middot; San Carlos City
-                  </p>
-                </div>
-                <div class="col-md-4">
-                  <p class="lead text-md-end">
-                    Elevating your epicurean desires with an array of world
-                    cuisines, each dish meticulously prepared to absolute
-                    perfection.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Hero -->
-
-      <!-- About Journey -->
-
-      <section class="container py-5">
-        <div class="row">
-          <div class="d-none d-lg-block col-lg-6 p-5 content">
-            <div class="lc-block img-line-top pr-2">
-              <span class="img-line-bottom"></span>
-              <img
-                class="img-fluid"
-                alt="Steak"
-                src="../imgs/steak.jpg"
-                style="height: 42.5rem; width: 100%; object-fit: cover"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 ps-lg-5 pt-5">
-            <!-- /lc-block -->
-            <div class="lc-block content mb-3 text-white px-md-3">
-              <div editable="rich">
-                <p class="lead text-uppercase about-line pb-3">About Us</p>
-                <h1 class="text-secondary text-uppercase">Our</h1>
-                <h1 class="text-secondary text-uppercase">Journey</h1>
-                <p class="mt-5 text-content text-justify">
-                  Nestled in the heart of the city, The Golden Platter is not just
-                  a restaurant; it's a journey through time, a celebration of
-                  flavors, and an embodiment of refined taste. Our story begins
-                  with a vision to create a dining experience that transcends mere
-                  sustenance, a place where every meal is a symphony of flavors
-                  and every moment a cherished memory.
-                </p>
-              </div>
-            </div>
-            <div class="lc-block pt-5 px-md-3">
-              <button
-                type="button"
-                class="btn btn-outlined"
+                class="btn btn-secondary"
                 style="
                   --bs-btn-padding-y: 0.5rem;
                   --bs-btn-padding-x: 1.5rem;
-                  --bs-btn-font-size: 1rem;
+                  --bs-btn-font-size: 0.75rem;
                   --bs-btn-border-radius: 0;
                 "
               >
-                Contact Us
+                Reservation
               </button>
             </div>
-            <!-- /lc-block -->
           </div>
         </div>
-      </section>
+      </div>
+    </nav>
 
-      <!-- About Journey -->
+    <!-- Hero -->
 
-      <!-- Our Menu -->
-
-      <section class="py-5 mt-5 content">
-        <div class="container pt-5">
-          <div class="row justify-content-md-center content">
-            <div class="col">
-              <p class="mb-4 lead text-center text-uppercase service-line">
-                Culinary Symphony
-              </p>
-              <h2
-                class="mb-4 display-5 text-center text-secondary text-uppercase"
-              >
-                From Our Menu
-              </h2>
-              <p class="mb-5 text-center text-content">
-                Below is a collection of masterpieces that have been carefully
-                crafted by our talented chefs
-              </p>
-            </div>
+    <section
+      class="d-flex min-vh-100 pt-5 mb-5"
+      lc-helper="background"
+      style="
+        background: url(../imgs/hero-bg.jpg) center / cover no-repeat;
+        background-color: #262626;
+        background-blend-mode: overlay;
+      "
+    >
+      <div class="container align-self-center text-light">
+        <div class="lc-block mb-4 content text-left">
+          <div editable="rich">
+            <h1 class="px-md-5 text-secondary text-uppercase hero-upper-line">
+              Elevating
+            </h1>
+            <h1 class="px-md-5 text-secondary text-uppercase">Taste To Art</h1>
           </div>
         </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 p-4">
-              <div class="lc-block">
-                <img
-                  class="img-fluid"
-                  alt="Steak"
-                  src="../imgs/vegitarian-risotto.jpg"
-                  style="
-                    height: 22.5rem;
-                    width: 100%;
-                    object-fit: cover;
-                    object-position: bottom;
-                  "
-                />
-
-                <div class="row py-3">
-                  <p class="col-6 lead text-uppercase text-start">
-                    Vegitarian Risotto
-                  </p>
-                  <div
-                    class="d-flex col-6 align-items-center justify-content-end"
-                  >
-                    <p class="text-secondary text-content">Php 480</p>
-                  </div>
-                </div>
+        <div class="lc-block">
+          <div editable="rich">
+            <div class="row content">
+              <div class="col-md-5 hero-lower-line"></div>
+              <div class="col-md-3 order-md-first">
+                <p class="lead text-uppercase">
+                  Since 2003 &middot; San Carlos City
+                </p>
               </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 p-4">
-              <div class="lc-block">
-                <img
-                  class="img-fluid"
-                  alt="Steak"
-                  src="../imgs/pan-seared-halibut.jpg"
-                  style="
-                    height: 22.5rem;
-                    width: 100%;
-                    object-fit: cover;
-                    object-position: bottom;
-                  "
-                />
-
-                <div class="row py-3">
-                  <p class="col-6 lead text-uppercase text-start">
-                    Pan-seared Halibut
-                  </p>
-                  <div
-                    class="d-flex col-6 align-items-center justify-content-end"
-                  >
-                    <p class="text-secondary text-content">Php 1,280</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 p-4 mx-auto">
-              <div class="lc-block">
-                <img
-                  class="img-fluid"
-                  alt="Steak"
-                  src="../imgs/lobster-thermidol.jpg"
-                  style="
-                    height: 22.5rem;
-                    width: 100%;
-                    object-fit: cover;
-                    object-position: bottom;
-                  "
-                />
-
-                <div class="row py-3">
-                  <p class="col-6 lead text-uppercase text-start">
-                    Lobster Thermidol
-                  </p>
-                  <div
-                    class="d-flex col-6 align-items-center justify-content-end"
-                  >
-                    <p class="text-secondary text-content">Php 1,650</p>
-                  </div>
-                </div>
+              <div class="col-md-4">
+                <p class="lead text-md-end">
+                  Elevating your epicurean desires with an array of world
+                  cuisines, each dish meticulously prepared to absolute
+                  perfection.
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="lc-block pt-5 px-md-3 justify-content-center d-flex">
-          <button
-            type="button"
-            class="btn btn-outlined"
-            style="
-              --bs-btn-padding-y: 0.5rem;
-              --bs-btn-padding-x: 1rem;
-              --bs-btn-font-size: 1rem;
-              --bs-btn-border-radius: 0;
-            "
-          >
-            View Full Menu
-            <i class="bi bi-chevron-right"></i>
-          </button>
-        </div>
-        <span class="rect-background"></span>
-      </section>
+      </div>
+    </section>
 
-      <!-- Our Menu --> 
+    <!-- Hero -->
 
+    <!-- About Journey -->
 
-      <!-- Information Section -->
-
-      <section class="container-fluid">
-        <div class="row">
-
-          <!-- Image column taking up the entire width -->
-          
-          <div class="col-lg-6 px-0 image-responsive">
+    <section class="container py-5">
+      <div class="row">
+        <div class="d-none d-lg-block col-lg-6 p-5 content">
+          <div class="lc-block img-line-top pr-2">
+            <span class="img-line-bottom"></span>
             <img
-              src="../imgs/dining-experience.jpg"
-              class="img-fluid h-100"
-              style="object-fit: cover"
-              alt="Picture of a plate with food"
+              class="img-fluid"
+              alt="Steak"
+              src="../imgs/steak.jpg"
+              style="height: 42.5rem; width: 100%; object-fit: cover"
             />
           </div>
+        </div>
+        <div class="col-lg-6 ps-lg-5 pt-5">
+          <!-- /lc-block -->
+          <div class="lc-block content mb-3 text-white px-md-3">
+            <div editable="rich">
+              <p class="lead text-uppercase about-line pb-3">About Us</p>
+              <h1 class="text-secondary text-uppercase">Our</h1>
+              <h1 class="text-secondary text-uppercase">Journey</h1>
+              <p class="mt-5 text-content text-justify">
+                Nestled in the heart of the city, The Golden Platter is not just
+                a restaurant; it's a journey through time, a celebration of
+                flavors, and an embodiment of refined taste. Our story begins
+                with a vision to create a dining experience that transcends mere
+                sustenance, a place where every meal is a symphony of flavors
+                and every moment a cherished memory.
+              </p>
+            </div>
+          </div>
+          <div class="lc-block pt-5 px-md-3">
+            <button
+              type="button"
+              class="btn btn-outlined"
+              style="
+                --bs-btn-padding-y: 0.5rem;
+                --bs-btn-padding-x: 1.5rem;
+                --bs-btn-font-size: 1rem;
+                --bs-btn-border-radius: 0;
+              "
+            >
+              Contact Us
+            </button>
+          </div>
+          <!-- /lc-block -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Journey -->
+
+    <!-- Our Menu -->
+
+    <section class="py-5 mt-5 content">
+      <div class="container pt-5">
+        <div class="row justify-content-md-center content">
+          <div class="col">
+            <p class="mb-4 lead text-center text-uppercase service-line">
+              Culinary Symphony
+            </p>
+            <h2
+              class="mb-4 display-5 text-center text-secondary text-uppercase"
+            >
+              From Our Menu
+            </h2>
+            <p class="mb-5 text-center text-content">
+              Below is a collection of masterpieces that have been carefully
+              crafted by our talented chefs
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 p-4">
+            <div class="lc-block">
+              <img
+                class="img-fluid"
+                alt="Steak"
+                src="../imgs/vegitarian-risotto.jpg"
+                style="
+                  height: 22.5rem;
+                  width: 100%;
+                  object-fit: cover;
+                  object-position: bottom;
+                "
+              />
+
+              <div class="row py-3">
+                <p class="col-6 lead text-uppercase text-start">
+                  Vegitarian Risotto
+                </p>
+                <div
+                  class="d-flex col-6 align-items-center justify-content-end"
+                >
+                  <p class="text-secondary text-content">Php 480</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-4">
+            <div class="lc-block">
+              <img
+                class="img-fluid"
+                alt="Steak"
+                src="../imgs/pan-seared-halibut.jpg"
+                style="
+                  height: 22.5rem;
+                  width: 100%;
+                  object-fit: cover;
+                  object-position: bottom;
+                "
+              />
+
+              <div class="row py-3">
+                <p class="col-6 lead text-uppercase text-start">
+                  Pan-seared Halibut
+                </p>
+                <div
+                  class="d-flex col-6 align-items-center justify-content-end"
+                >
+                  <p class="text-secondary text-content">Php 1,280</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-4 mx-auto">
+            <div class="lc-block">
+              <img
+                class="img-fluid"
+                alt="Steak"
+                src="../imgs/lobster-thermidol.jpg"
+                style="
+                  height: 22.5rem;
+                  width: 100%;
+                  object-fit: cover;
+                  object-position: bottom;
+                "
+              />
+
+              <div class="row py-3">
+                <p class="col-6 lead text-uppercase text-start">
+                  Lobster Thermidol
+                </p>
+                <div
+                  class="d-flex col-6 align-items-center justify-content-end"
+                >
+                  <p class="text-secondary text-content">Php 1,650</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lc-block pt-5 px-md-3 justify-content-center d-flex">
+        <button
+          type="button"
+          class="btn btn-outlined"
+          style="
+            --bs-btn-padding-y: 0.5rem;
+            --bs-btn-padding-x: 1rem;
+            --bs-btn-font-size: 1rem;
+            --bs-btn-border-radius: 0;
+          "
+        >
+          View Full Menu
+          <i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+      <span class="rect-background"></span>
+    </section>
+
+    <!-- Our Menu -->
+
+    <!-- Information Section -->
+
+    <section class="container-fluid">
+      <div class="row">
+        <!-- Image column taking up the entire width -->
+
+        <div class="col-lg-6 px-0 image-responsive">
+          <img
+            src="../imgs/dining-experience.jpg"
+            class="img-fluid h-100"
+            style="object-fit: cover"
+            alt="Picture of a plate with food"
+          />
+        </div>
+        <!-- Text column with default container padding -->
+        <div class="col-lg-6 order-lg-first my-5 py-5 px-5 my-lg-auto">
+          <div class="col-12 mb-5 p-5 p-lg-5 content">
+            <p class="text text-center dining-line">
+              Whether you're celebrating a special occasion, hosting a business
+              dinner, or simply seeking a moment of indulgence, The Silver
+              Platter invites you to experience the epitome of fine dining. Join
+              us in creating memories that are as exquisite as they are
+              enduring.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Information Section -->
+
+    <!-- Chefs Info Section -->
+
+    <section class="chef-info">
+      <div class="container py-5 content">
+        <div class="row">
+          <!-- Image column taking up the entire width -->
+
+          <div
+            class="col-12 col-md-6 col-lg-3 py-5 d-none d-md-block image-responsive"
+          >
+            <img
+              src="../imgs/searing-chef.png"
+              class="img-fluid h-100"
+              style="object-fit: cover"
+              alt="Chef Searing Food"
+            />
+          </div>
+
+          <div
+            class="col-12 col-md-6 col-lg-3 py-5 d-none d-md-block image-responsive"
+          >
+            <img
+              src="../imgs/whisking-chef.png"
+              class="img-fluid h-100"
+              style="object-fit: cover"
+              alt="Chef Whisking"
+            />
+          </div>
+
           <!-- Text column with default container padding -->
-          <div class="col-lg-6 order-lg-first my-5 py-5 px-5 my-lg-auto">
-            <div class="col-12 mb-5 p-5 p-lg-5 content">
-              <p class="text text-center dining-line">
-                Whether you're celebrating a special occasion, hosting a business
-                dinner, or simply seeking a moment of indulgence, The Silver
-                Platter invites you to experience the epitome of fine dining. Join
-                us in creating memories that are as exquisite as they are
-                enduring.
-              </p>
-            </div>
+          <div class="col-lg-6 my-5 p-5 my-auto content">
+            <p class="text text-center chef-info-line">
+              Whether you're celebrating a special occasion, hosting a business
+              dinner, or simply seeking a moment of indulgence, The Silver
+              Platter invites you to experience the epitome of fine dining. Join
+              us in creating memories that are as exquisite as they are
+              enduring.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Information Section -->
-      
-      <!-- Chefs Info Section -->
+    <!-- Chefs Info Section -->
 
-      <section class="chef-info">
-        <div class="container py-5 content">
-          <div class="row">
+    <!-- Reservation Section -->
 
-            <!-- Image column taking up the entire width -->
-            
-            <div class="col-12 col-md-6 col-lg-3 py-5 d-none d-md-block image-responsive  ">
-              <img
-                src="../imgs/searing-chef.png"
-                class="img-fluid h-100"
-                style="object-fit: cover"
-                alt="Chef Searing Food"
-              />
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3 py-5 d-none d-md-block image-responsive  ">
-              <img
-                src="../imgs/whisking-chef.png"
-                class="img-fluid h-100"
-                style="object-fit: cover"
-                alt="Chef Whisking"
-              />
-            </div>
-
-            <!-- Text column with default container padding -->
-            <div class="col-lg-6 my-5 p-5 my-auto content">
-              <p class="text text-center chef-info-line">
-                Whether you're celebrating a special occasion, hosting a business
-                dinner, or simply seeking a moment of indulgence, The Silver
-                Platter invites you to experience the epitome of fine dining. Join
-                us in creating memories that are as exquisite as they are
-                enduring.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Chefs Info Section -->
-
-      <!-- Reservation Section -->
-
-      <section>
-        <div class="d-flex flex-column align-items-center justify-content-center text-center reservation-section">
-          <h4 class="text-uppercase mb-5 text-secondary">Reserve Your Table</h4>
-          <button
+    <section>
+      <div
+        class="d-flex flex-column align-items-center justify-content-center text-center reservation-section"
+      >
+        <h4 class="text-uppercase mb-5 text-secondary">Reserve Your Table</h4>
+        <button
           type="button"
           class="btn btn-secondary"
           style="
@@ -430,95 +437,102 @@
         >
           Reservation
         </button>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Reservation Section -->
-    
-      <!-- Footer -->
+    <!-- Reservation Section -->
 
-      <footer class="text-lg-start text-muted">
-        <!-- Section: Links  -->
-        <section class="py-5 text-white">
-          <div class="container text-md-start mt-5">
-            <!-- Grid row -->
+    <!-- Footer -->
 
-            <div class="row mt-3">
+    <footer class="text-lg-start text-muted">
+      <!-- Section: Links  -->
+      <section class="py-5 text-white">
+        <div class="container text-md-start mt-5">
+          <!-- Grid row -->
 
-              <!-- Grid column -->
-              <div class="col-12 col-lg-4 col-xl-3 mx-auto mb-4">
-                <!-- Content -->
-                <h6 class="text-uppercase mb-4">
-                  The <span class="text-secondary">Golden</span> Platter
-                </h6>
-                <p style="font-size: 1.125rem">
-                  © 2023 The Golden Platter. All rights reserved.
-                </p>
-              </div>
-              <!-- Grid column -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-12 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase mb-4">
+                The <span class="text-secondary">Golden</span> Platter
+              </h6>
+              <p style="font-size: 1.125rem">
+                © 2023 The Golden Platter. All rights reserved.
+              </p>
+            </div>
+            <!-- Grid column -->
 
-              <!-- Grid column -->
-              <div class="col-12 col-lg-auto mb-4 container-fluid mx-auto">
-                <!-- Links -->
-                <p class="text-uppercase fw-bold mb-4 footer-text-header">
-                  Follow Us
-                </p>
-                <div class="row">
-                  <div class="mb-4 col-3">
-                    <button class="btn-circle"><i class="fa-brands fa-yelp fa-xl"></i></button>
-                  </div>
-                  <div class="mb-4 col-3">
-                    <button class="btn-circle"><i class="fa-brands fa-facebook-f fa-xl"></i></button>
-                  </div>
-                  <div class="mb-4 col-3">
-                    <button class="btn-circle"><i class="fa-brands fa-instagram fa-lg"></i></button>
-                  </div>
-                  <div class="mb-4 col-3">
-                    <button class="btn-circle"><i class="fa-brands fa-twitter fa-lg"></i></button>
-                  </div>
+            <!-- Grid column -->
+            <div class="col-12 col-lg-auto mb-4 container-fluid mx-auto">
+              <!-- Links -->
+              <p class="text-uppercase fw-bold mb-4 footer-text-header">
+                Follow Us
+              </p>
+              <div class="row">
+                <div class="mb-4 col-3">
+                  <button class="btn-circle">
+                    <i class="fa-brands fa-yelp fa-xl"></i>
+                  </button>
+                </div>
+                <div class="mb-4 col-3">
+                  <button class="btn-circle">
+                    <i class="fa-brands fa-facebook-f fa-xl"></i>
+                  </button>
+                </div>
+                <div class="mb-4 col-3">
+                  <button class="btn-circle">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                  </button>
+                </div>
+                <div class="mb-4 col-3">
+                  <button class="btn-circle">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                  </button>
                 </div>
               </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-12 col-lg-3 mx-auto mb-4">
-                <!-- Links -->
-                <p class="text-uppercase fw-bold mb-4 footer-text-header text-wrap">
-                  Contact Us
-                </p>
-                <p class="my-1 text-secondary fw-bold footer-contact-us">Phone</p>
-                <p class="my-1 text-white footer-contact-us">123-456-7890</p>
-                <p class="my-1 text-secondary fw-bold footer-contact-us">Email</p>
-                <p class="my-1 text-wrap text-white footer-contact-us">GldnP@gmail.com</p>
-              </div>
-              <!-- Grid column -->
-
             </div>
-            <!-- Grid row -->
-          </div>
-        </section>
-        <!-- Section: Links  -->
+            <!-- Grid column -->
 
-        <!-- Copyright -->
-        <div class="text-center p-4 text-muted">
-          © 2023 Copyright:
-          <a class="text-reset fw-bold" href="index.html">the-golden-platter.com</a>
+            <!-- Grid column -->
+            <div class="col-12 col-lg-3 mx-auto mb-4">
+              <!-- Links -->
+              <p
+                class="text-uppercase fw-bold mb-4 footer-text-header text-wrap"
+              >
+                Contact Us
+              </p>
+              <p class="my-1 text-secondary fw-bold footer-contact-us">Phone</p>
+              <p class="my-1 text-white footer-contact-us">123-456-7890</p>
+              <p class="my-1 text-secondary fw-bold footer-contact-us">Email</p>
+              <p class="my-1 text-wrap text-white footer-contact-us">
+                GldnP@gmail.com
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
         </div>
-        <!-- Copyright -->
-      </footer>
-      
-      <!-- Footer -->
-    
-    
-    
-        
-    
-  
-      <!-- Bootstrap 5 Javascript -->
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"
-      ></script>
-    </body>
-  </html>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4 text-muted">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="index.html"
+          >the-golden-platter.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- Footer -->
+
+    <!-- Bootstrap 5 Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

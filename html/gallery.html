@@ -13,7 +13,11 @@
       rel="stylesheet"
     />
 
-    <!-- Bootstrap Icons -->
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/d18c999477.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
@@ -78,13 +82,18 @@
               class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
             >
               <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="index.html">Menu</a>
+                <a class="nav-link" href="#">Menu</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="gallery.html"
+                  >Gallery</a
+                >
               </li>
               <li class="nav-item mx-3">
                 <a class="nav-link" href="#">About</a>
@@ -113,128 +122,303 @@
       </div>
     </nav>
 
-    <s<section class="container-fluid">
-        <div class="row mt-3 position-relative">
-            <!-- Background Image -->
-            <div class="col-lg px-0 image-responsive">
-                <img
-                    src="../imgs/dining-experience.jpg"
-                    class="img-fluid h-100 p-5"
-                    style="object-fit: cover"
-                    alt="Picture of a plate with food"
-                />
-            </div>
-        
-            <!-- Overlay Image (Transparent) -->
-            <div class="overlay-image position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
-                <img
-                    src="../imgs/what-we-offer.png"
-                    class="img-fluid"
-                    alt="What we offer"
-                />
-            </div>
-        </div>
-    
-        <!-- Row for buttons with spacing -->
-        <div class="row mt-3">
-            <div class="col-lg-1 order-lg-first"></div>
-            <div class="col-lg px-0 d-flex">
+    <!-- What We Offer Section -->
 
-                <div class="lc-block px-md-3">
-                    <!-- Button 1 -->
-                    <button
-                        type="button"
-                        class="btn btn-outlined me-2 ms-4" 
-                        style="
-                            --bs-btn-padding-y: 0.5rem;
-                            --bs-btn-padding-x: 1.5rem;
-                            --bs-btn-font-size: 1rem;
-                            --bs-btn-border-radius: 0;
-                        "
-                    >
-                        Contact Us
-                    </button>
-                
-                    <!-- Button 2 -->
-                    <button
-                        type="button"
-                        class="btn btn-outlined me-2 ms-4" 
-                        style="
-                            --bs-btn-padding-y: 0.5rem;
-                            --bs-btn-padding-x: 1.5rem;
-                            --bs-btn-font-size: 1rem;
-                            --bs-btn-border-radius: 0;
-                        "
-                    >
-                        Button 2
-                    </button>
-                
-                    <!-- Button 3 -->
-                    <button
-                        type="button"
-                        class="btn btn-outlined me-2 ms-4" 
-                        style="
-                            --bs-btn-padding-y: 0.5rem;
-                            --bs-btn-padding-x: 1.5rem;
-                            --bs-btn-font-size: 1rem;
-                            --bs-btn-border-radius: 0;
-                        "
-                    >
-                        Button 3
-                    </button>
-                
-                    <!-- Button 4 -->
-                    <button
-                        type="button"
-                        class="btn btn-outlined ms-4" 
-                        style="
-                            --bs-btn-padding-y: 0.5rem;
-                            --bs-btn-padding-x: 1.5rem;
-                            --bs-btn-font-size: 1rem;
-                            --bs-btn-border-radius: 0;
-                        "
-                    >
-                        Button 4
-                    </button>
+    <section class="container mt-5 pt-5 offer-bg">
+      <div class="offer-section"></div>
+    </section>
+
+    <!-- What We Offer Section -->
+
+    <!-- Gallery Buttons -->
+
+    <section class="container pt-5">
+      <div class="row gy-4">
+        <div class="col-auto">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            style="
+              --bs-btn-padding-y: 0.5rem;
+              --bs-btn-padding-x: 1.5rem;
+              --bs-btn-font-size: 0.75rem;
+              --bs-btn-border-radius: 0;
+              --bs-btn-border-width: 0.125rem;
+            "
+          >
+            Show All
+          </button>
+        </div>
+        <div class="col-auto">
+          <button
+            type="button"
+            class="btn btn-outlined"
+            style="
+              --bs-btn-padding-y: 0.5rem;
+              --bs-btn-padding-x: 1.5rem;
+              --bs-btn-font-size: 0.75rem;
+              --bs-btn-border-radius: 0;
+            "
+          >
+            A La Carte
+          </button>
+        </div>
+        <div class="col-auto">
+          <button
+            type="button"
+            class="btn btn-outlined"
+            style="
+              --bs-btn-padding-y: 0.5rem;
+              --bs-btn-padding-x: 1.5rem;
+              --bs-btn-font-size: 0.75rem;
+              --bs-btn-border-radius: 0;
+            "
+          >
+            Food
+          </button>
+        </div>
+        <div class="col-auto">
+          <button
+            type="button"
+            class="btn btn-outlined"
+            style="
+              --bs-btn-padding-y: 0.5rem;
+              --bs-btn-padding-x: 1.5rem;
+              --bs-btn-font-size: 0.75rem;
+              --bs-btn-border-radius: 0;
+            "
+          >
+            Drinks
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Buttons -->
+
+    <!-- Galllery Section -->
+
+    <section class="container py-5 mb-5">
+      <div class="row">
+        <div class="col-md-4 mt-3 col-lg-4">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-4">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-4">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-6">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-6">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-3">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-3">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-3">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-3">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+
+        <div class="col-md-4 mt-3 col-lg-6">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-6">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-3">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-3">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-3">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-4 mt-3 col-lg-3">
+          <img
+            src="https://source.unsplash.com/collection/190726/1500x900"
+            class="img-fluid"
+            alt="image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+
+    <!-- Reservation Section -->
+    <section class="pt-5">
+      <div
+        class="d-flex flex-column align-items-center justify-content-center text-center reservation-section"
+      >
+        <h4 class="text-uppercase mb-5 text-secondary">Reserve Your Table</h4>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          style="
+            --bs-btn-padding-y: 0.5rem;
+            --bs-btn-padding-x: 2rem;
+            --bs-btn-font-size: 1.3rem;
+            --bs-btn-border-radius: 0;
+            --bs-btn-border-style: none;
+          "
+        >
+          Reservation
+        </button>
+      </div>
+    </section>
+    <!-- Reservation Section -->
+
+    <!-- Footer -->
+
+    <footer class="text-lg-start text-muted">
+      <!-- Section: Links  -->
+      <section class="py-5 text-white">
+        <div class="container text-md-start mt-5">
+          <!-- Grid row -->
+
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-12 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase mb-4">
+                The <span class="text-secondary">Golden</span> Platter
+              </h6>
+              <p style="font-size: 1.125rem">
+                © 2023 The Golden Platter. All rights reserved.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-12 col-lg-auto mb-4 container-fluid mx-auto">
+              <!-- Links -->
+              <p class="text-uppercase fw-bold mb-4 footer-text-header">
+                Follow Us
+              </p>
+              <div class="row">
+                <div class="mb-4 col-3">
+                  <button class="btn-circle">
+                    <i class="fa-brands fa-yelp fa-xl"></i>
+                  </button>
                 </div>
+                <div class="mb-4 col-3">
+                  <button class="btn-circle">
+                    <i class="fa-brands fa-facebook-f fa-xl"></i>
+                  </button>
+                </div>
+                <div class="mb-4 col-3">
+                  <button class="btn-circle">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                  </button>
+                </div>
+                <div class="mb-4 col-3">
+                  <button class="btn-circle">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                  </button>
+                </div>
+              </div>
             </div>
-        </div>
+            <!-- Grid column -->
 
-        <div class="row mt-4">
-            <div class="col-lg-1 order-lg-first"></div>
-            <div class="col-md-3 mb-4 ms-4">
-                <img src="../imgs/lobster.png" class="img-fluid" alt="Gallery Image 1">
+            <!-- Grid column -->
+            <div class="col-12 col-lg-3 mx-auto mb-4">
+              <!-- Links -->
+              <p
+                class="text-uppercase fw-bold mb-4 footer-text-header text-wrap"
+              >
+                Contact Us
+              </p>
+              <p class="my-1 text-secondary fw-bold footer-contact-us">Phone</p>
+              <p class="my-1 text-white footer-contact-us">123-456-7890</p>
+              <p class="my-1 text-secondary fw-bold footer-contact-us">Email</p>
+              <p class="my-1 text-wrap text-white footer-contact-us">
+                GldnP@gmail.com
+              </p>
             </div>
-            <div class="col-md-3 mb-4 ms-4">
-                <img src="../imgs/panna-cotta.png" class="img-fluid" alt="Gallery Image 2">
-            </div>
-            <div class="col-md-3 mb-4 ms-4">
-                <img src="../imgs/vegetable-salad.jpg" class="img-fluid" alt="Gallery Image 3">
-            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
         </div>
-        <div class="row mt-4">
-            <div class="col-lg-1 order-lg-first"></div>
-            <div class="col-md-3 mb-4 ms-4">
-                <img src="../imgs/lobster.png" class="img-fluid" alt="Gallery Image 1">
-            </div>
-            <div class="col-md-3 mb-4 ms-4">
-                <img src="../imgs/panna-cotta.png" class="img-fluid" alt="Gallery Image 2">
-            </div>
-            <div class="col-md-3 mb-4 ms-4">
-                <img src="../imgs/vegetable-salad.jpg" class="img-fluid" alt="Gallery Image 3">
-            </div>
-        </div>
-    </section>
+      </section>
+      <!-- Section: Links  -->
 
-    <section class="container-fluid p-0">
-        <div class="jumbotron jumbotron-fluid bg-cover text-white d-flex align-items-center">
-            <div class="container text-center">
-                <h1 class="display-4">RESERVE YOUR TABLE</h1>
-                <div class="lc-block pt-5 px-md-3 justify-content-center d-flex">
-            </div>
-        </div>
-    </section>
+      <!-- Copyright -->
+      <div class="text-center p-4 text-muted">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="index.html"
+          >the-golden-platter.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
 
+    <!-- Footer -->
 
     <!-- Bootstrap 5 Javascript -->
     <script
