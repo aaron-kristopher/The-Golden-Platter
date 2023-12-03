@@ -1,0 +1,40 @@
+.footer-text-header {
+    font-size: 1.875rem;
+}
+
+.footer-contact-us {
+    font-size: 1.25rem;
+}
+
+.footer-divider::before, .footer-divider::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 11rem;
+    background-color: #D4AA54;
+}
+
+.footer-divider::before {
+    left: -4.5rem;
+}
+
+.footer-divider::after {
+    top: 0;
+    right: -3.5rem;
+}
+
+@media screen and (max-width: 991px) {
+    .footer-divider::before,
+    .footer-divider::after {
+        width: 0;
+        height: 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .footer-divider::after {
+        right: -1.5rem;
+    }
+
+}
+

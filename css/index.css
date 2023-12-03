@@ -1,0 +1,227 @@
+/* HERO SECTION */
+
+.hero-upper-line::before {
+    content: "";
+    position: absolute;
+    top: -2.5rem;
+    left: 0;
+    width: 404px;
+    height: 2px;
+    background: #D4AA54;
+}
+
+.hero-lower-line::before {
+    content: "";
+    position: absolute;
+    top: .75rem;
+    width: 40%;
+    height: 2px;
+    background: #D4AA54;
+
+}
+
+.hero-lower-line {
+    height: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-upper-line::before {
+
+        width: 202px;
+    }
+    
+}
+
+/* HERO SECTION */
+
+
+/* ABOUT JOURNEY SECTION */
+
+.about-line::before {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 8rem;
+    width: 40%;
+    height: 2px;
+    background: #D4AA54;
+}
+
+.img-line-top::before, .img-line-top::after {
+    content: "";
+    position: absolute;
+    background: #D4AA54;
+}
+
+.img-line-top::before {
+    width: 10rem;
+    height: 2px;
+    top: .5rem;
+    right: 1rem;
+    transform-origin: 100% 50%;
+    transform: rotate(0deg);
+}
+
+.img-line-top::after {
+    width: 2px;
+    height: 10rem;
+    top: .5rem;
+    right: 1rem;
+    transform-origin: 50% 100%;
+    transform: rotate(0deg);
+}
+
+.img-line-bottom::before, 
+.img-line-bottom::after, 
+.service-line::before, 
+.service-line::after {
+    content: "";
+    position: absolute;
+    background: #D4AA54;
+}
+
+.img-line-bottom::before {
+    width: 10rem;
+    height: 2px;
+    bottom: .5rem;
+    left: 1rem;
+    transform-origin: 100% 50%;
+    transform: rotate(0deg);
+}
+
+.img-line-bottom::after {
+    width: 2px;
+    height: 10rem;
+    bottom: .5rem;
+    left: 1rem;
+    transform-origin: 50% 100%;
+    transform: rotate(0deg);
+}
+
+/* ABOUT JOURNEY SECTION */
+
+/* OUR MENU SECTION */
+
+.service-line::before {
+    height: 2px;
+    width: 10%;
+    left: 25.5rem;
+    top: 1rem;
+}
+
+.service-line::after {
+    height: 2px;
+    width: 10%;
+    right: 25.25rem;
+    top: 1rem;
+}
+
+@media screen and (max-width: 1399px) {
+    .service-line::before {
+        left: 20.5rem;
+    }
+    .service-line::after {
+        right: 20.25rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .service-line::before {
+        left: 16rem;
+    }
+    .service-line::after {
+        right: 16.25rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .service-line::before {
+        left: 10rem;
+    }
+    .service-line::after {
+        right: 10.25rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .service-line::before {
+        left: 6rem;
+    }
+    .service-line::after {
+        right: 6.25rem;
+    }
+}
+@media screen and (max-width: 575px){
+    .service-line::before {
+        left: 4rem;
+    }
+
+    .service-line::after {
+        right: 4.25rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .service-line::before {
+        left: 3rem;
+    }
+
+    .service-line::after {
+        right: 3rem;
+    }
+}
+
+.rect-background::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 65vh;
+    background: #122029;
+    bottom: 0;
+}
+
+/* OUR MENU SECTION */
+
+/* INFORMATION SECTION */
+
+.dining-line::before,
+.dining-line::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background: #D4AA54;
+    left: 25%;
+}
+
+.dining-line::before {
+    top: 0;
+
+}
+
+.dining-line::after {
+    bottom: 0;
+}
+
+/* INFORMATION SECTION */
+
+/* CHEF'S INFO SECTION */
+
+
+.chef-info-line::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    background: #D4AA54;
+    left: 20%;
+    top: 0;
+}
+
+.chef-info {
+    background: #122029;
+
+}
+
+/* CHEF'S INFO SECTION */

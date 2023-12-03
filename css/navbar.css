@@ -1,0 +1,12 @@
+.nav-link:hover,.nav-link .active{
+    color: #D4AA54;
+    
+}
+
+@media screen and (max-width: 991px) {
+    .sidebar {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+    
+}

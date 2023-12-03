@@ -1,0 +1,17 @@
+.offer-bg {
+    height: 42.5rem;
+    background-image: url("../imgs/offer-bg.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    background-color: #5f5f5f;
+    background-blend-mode: overlay;
+}
+
+.offer-section {
+    height: 42.5rem;
+    background-image: url("../imgs/what-we-offer.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}        

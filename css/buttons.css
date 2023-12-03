@@ -1,0 +1,36 @@
+.btn {
+    border-radius: 0;
+    font-size: .825rem;
+    padding-block: 0.5rem;
+    padding-inline: 1.5rem;
+}
+
+.btn-lg-font {
+    font-size: 1rem; 
+}
+
+.btn-outlined {
+    background: transparent;
+    border-color: #D4AA54;
+    color: #D4AA54;
+    border-width: 2px;
+}
+
+.btn-outlined:hover {
+    background: #D4AA54;
+    color: #0B1315;
+}
+
+.btn-circle {
+    padding: 0;
+    height: 3rem;
+    width: 3rem;
+    background: #D4AA54;
+    border-radius: 25px;
+    border-color: transparent;
+    transition: 300ms;
+}
+
+.btn-circle:hover {
+    background: #DFC081;
+}
