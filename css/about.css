@@ -1,0 +1,24 @@
+.bg {
+    background: #D4AA54;
+}
+
+.about-text-header {
+    font-size: 1.875rem;
+}
+
+.text-black {
+    color: #0B1315; 
+}
+
+.address-info {
+    white-space: pre-line;
+}
+
+.bg-cover {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    height: 100%;   
+    background: #D4AA54;
+} 

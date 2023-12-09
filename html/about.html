@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Golden Platter</title>
+    <link rel="icon" type="image/x-icon" href="/imgs/logo.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+
+    <script
+      src="https://kit.fontawesome.com/d18c999477.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+
+    <!-- Animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/buttons.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="../imgs/logo.png" alt="Bootstrap" width="48" height="48" />
+        </a>
+
+        <!-- Navbar Toggler -->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- SideBar -->
+        <div
+          class="sidebar offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- Sidebar Header -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h6 class="offcanvas-title" id="offcanvasNavbarLabel">
+              The Golden Platter
+            </h6>
+            <button
+              type="button"
+              class="btn-close btn-close-white shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!-- Sidebar Body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul
+              class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+            >
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="about.html"
+                  >About</a
+                >
+              </li>
+            </ul>
+
+            <!-- Reservation Btn -->
+            <div
+              class="d-flex justify-content-center align-items-center flex-column flex-lg-row"
+            >
+              <button type="button" class="btn btn-secondary">
+                Reservation
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar -->
+
+    <!-- Main Section -->
+
+    <section class="vh-100 pt-5 mt-2">
+      <div class="container">
+        <div class="row vh-100">
+          <!-- Contact Section -->
+          <div class="col-12 col-md-5 ps-5 text-black bg">
+            <div class="d-flex flex-column justify-content-center vh-100">
+              <p class="about-text-header fw-bold">Contact Info</p>
+              <div class="container-fluid address-info">
+                <div class="row">
+                  <div class="col-1 pt-4">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                  </div>
+                  <div class="col-10">
+                    <p>
+                      <span class="fw-bold">420 Broce Street</span>
+                      (Between Rizal & Araneta Street) 6200<span
+                        style="color: transparent"
+                        >______________</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-regular fa-envelope fa-lg"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="fw-bold">TheGldnP@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                  </div>
+                  <div class="col-auto">
+                    <p class="fw-bold">123-456-7890</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Send a Message Section -->
+          <div class="col-12 col-md-7"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Section -->
+
+    <!-- Footer -->
+
+    <footer class="text-lg-start text-muted">
+      <!-- Section: Links  -->
+      <section class="py-5 text-white">
+        <div class="container text-md-start mt-5">
+          <!-- Grid row -->
+
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-12 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase mb-4">
+                The <span class="text-secondary">Golden</span> Platter
+              </h6>
+              <p style="font-size: 1.125rem">
+                © 2023 The Golden Platter. All rights reserved.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-12 col-lg-auto mb-4 container-fluid mx-auto">
+              <div class="content">
+                <div class="footer-divider">
+                  <!-- Links -->
+                  <p class="text-uppercase fw-bold mb-4 footer-text-header">
+                    Follow Us
+                  </p>
+                  <div class="row">
+                    <div class="mb-4 col-3">
+                      <button class="btn-circle">
+                        <i class="fa-brands fa-yelp fa-xl"></i>
+                      </button>
+                    </div>
+                    <div class="mb-4 col-3">
+                      <button class="btn-circle">
+                        <i class="fa-brands fa-facebook-f fa-xl"></i>
+                      </button>
+                    </div>
+                    <div class="mb-4 col-3">
+                      <button class="btn-circle">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                      </button>
+                    </div>
+                    <div class="mb-4 col-3">
+                      <button class="btn-circle">
+                        <i class="fa-brands fa-twitter fa-lg"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-12 col-lg-3 mx-auto mb-4">
+              <!-- Links -->
+              <p
+                class="text-uppercase fw-bold mb-4 footer-text-header text-wrap"
+              >
+                Contact Us
+              </p>
+              <p class="my-1 text-secondary fw-bold footer-contact-us">Phone</p>
+              <p class="my-1 text-white footer-contact-us">123-456-7890</p>
+              <p class="my-1 text-secondary fw-bold footer-contact-us">Email</p>
+              <p class="my-1 text-wrap text-white footer-contact-us">
+                GldnP@gmail.com
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4 text-muted">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="index.html"
+          >the-golden-platter.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- Footer -->
+  </body>
+</html>
