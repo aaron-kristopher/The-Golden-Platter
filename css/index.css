@@ -208,20 +208,85 @@
 
 /* CHEF'S INFO SECTION */
 
-
-.chef-info-line::before {
-    content: "";
-    position: absolute;
-    width: 60%;
-    height: 2px;
-    background: #D4AA54;
-    left: 20%;
-    top: 0;
-}
-
 .chef-info {
     background: #122029;
 
+}
+
+.chef-service-line::before,
+.chef-service-line::after {
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 2px;
+    background: #D4AA54;
+}
+
+.chef-service-line::before {
+    height: 2px;
+    left: 25.5rem;
+    top: 1rem;
+}
+
+.chef-service-line::after {
+    height: 2px;
+    right: 25.25rem;
+    top: 1rem;
+}
+
+@media screen and (max-width: 1399px) {
+    .chef-service-line::before {
+        left: 20.5rem;
+    }
+    .chef-service-line::after {
+        right: 20.25rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .chef-service-line::before {
+        left: 16rem;
+    }
+    .chef-service-line::after {
+        right: 16.25rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .chef-service-line::before {
+        left: 5rem;
+    }
+    .chef-service-line::after {
+        right: 5.25rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .chef-service-line::before {
+        left: 2rem;
+    }
+    .chef-service-line::after {
+        right: 2.25rem;
+    }
+}
+@media screen and (max-width: 575px){
+    .chef-service-line::before {
+        left: 1rem;
+    }
+
+    .chef-service-line::after {
+        right: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .chef-service-line::before {
+        left: -0.5rem;
+    }
+
+    .chef-service-line::after {
+        right: -0.5rem;
+    }
 }
 
 /* CHEF'S INFO SECTION */
