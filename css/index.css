@@ -245,10 +245,10 @@
 
 @media screen and (max-width: 1199px) {
     .chef-service-line::before {
-        left: 16rem;
+        left: 18rem;
     }
     .chef-service-line::after {
-        right: 16.25rem;
+        right: 18.25rem;
     }
 }
 
@@ -290,3 +290,7 @@
 }
 
 /* CHEF'S INFO SECTION */
+
+.fa-regular {
+    color: #D4AA54;
+}
