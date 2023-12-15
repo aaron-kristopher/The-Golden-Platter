@@ -1,0 +1,52 @@
+
+.contactForm {
+    width: 100%;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 12px 0; 
+    color: #FFFBFF;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid #FFFBFF;
+    outline: none;
+    resize: none;
+    transition: 0.5s;
+}
+
+.contactForm .inputBox input:valid,
+.contactForm .inputBox input:focus,
+.contactForm .inputBox textarea:valid,
+.contactForm .inputBox textarea:focus {
+    border-color: #D4AA54;
+}
+
+.contactForm .inputBox label {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 12px 0;
+    pointer-events: none;
+    transition: 0.5s;
+}   
+
+.contactForm .inputBox input:focus ~ label,  
+.contactForm .inputBox input:valid ~ label,  
+.contactForm .inputBox textarea:focus ~ label,   
+.contactForm .inputBox textarea:valid ~ label {
+    color: #D4AA54;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+

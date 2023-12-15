@@ -39,6 +39,8 @@
     <link rel="stylesheet" href="../css/about.css" />
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/buttons.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="../css/forms.css" />
     <link rel="stylesheet" href="../css/footer.css" />
   </head>
   <body>
@@ -121,46 +123,69 @@
 
     <!-- Main Section -->
 
-    <section class="vh-100 pt-5 mt-2">
+    <section class="pt-5 mt-2">
       <div class="container">
-        <div class="row vh-100">
+        <div class="row">
           <!-- Contact Section -->
-          <div class="col-12 col-md-5 ps-5 text-black bg">
-            <div class="d-flex flex-column justify-content-center vh-100">
+          <div class="col-12 col-lg-5 ps-5 text-black bg">
+            <div
+              class="ps-lg-5 d-flex flex-column justify-content-center vh-100"
+            >
               <p class="about-text-header fw-bold">Contact Info</p>
-              <div class="container-fluid address-info">
+              <div class="container-fluid mt-4 mt-3 mb-2">
                 <div class="row">
-                  <div class="col-1 pt-4">
-                    <i class="fa-brands fa-twitter fa-lg"></i>
+                  <div class="col-1 ps-0">
+                    <i class="bi bi-geo-alt fa-xl"></i>
                   </div>
-                  <div class="col-10">
+                  <div class="col-11 ps-lg-2">
                     <p>
-                      <span class="fw-bold">420 Broce Street</span>
-                      (Between Rizal & Araneta Street) 6200<span
-                        style="color: transparent"
-                        >______________</span
-                      >
+                      <span class="fw-bold">420 Brose Street</span
+                      ><br />(Between Rizal St & Araneta St)<br />6200
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="container-fluid">
+              <div class="container-fluid mb-3">
                 <div class="row">
-                  <div class="col-1">
-                    <i class="fa-regular fa-envelope fa-lg"></i>
+                  <div class="col-1 ps-0">
+                    <i class="bi bi-envelope fa-xl"></i>
                   </div>
-                  <div class="col-10">
+                  <div class="col-11 ps-lg-2">
                     <p class="fw-bold">TheGldnP@gmail.com</p>
                   </div>
                 </div>
               </div>
-              <div class="container-fluid">
+              <div class="container-fluid mb-3">
                 <div class="row">
-                  <div class="col-1">
-                    <i class="fa-brands fa-twitter fa-lg"></i>
+                  <div class="col-1 ps-0">
+                    <i class="bi bi-telephone fa-xl"></i>
                   </div>
-                  <div class="col-auto">
+                  <div class="col-11 ps-lg-2">
                     <p class="fw-bold">123-456-7890</p>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid mb-3">
+                <div class="row ps-0">
+                  <div class="mb-4 ps-0 col-3">
+                    <button class="btn-circle btn-dark">
+                      <i class="fa-brands fa-yelp fa-xl"></i>
+                    </button>
+                  </div>
+                  <div class="mb-4 ps-0 col-3">
+                    <button class="btn-circle btn-dark">
+                      <i class="bi bi-facebook fa-xl"></i>
+                    </button>
+                  </div>
+                  <div class="mb-4 ps-0 col-3">
+                    <button class="btn-circle btn-dark">
+                      <i class="bi bi-instagram fa-lg"></i>
+                    </button>
+                  </div>
+                  <div class="mb-4 ps-0 col-3">
+                    <button class="btn-circle btn-dark">
+                      <i class="fa-brands fa-twitter fa-lg"></i>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -168,7 +193,108 @@
           </div>
 
           <!-- Send a Message Section -->
-          <div class="col-12 col-md-7"></div>
+          <div class="col-12 col-lg-7">
+            <div
+              class="container d-flex flex-column justify-content-center vh-100"
+            >
+              <div class="row mt-5 pt-4 justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <div class="contactForm">
+                    <p class="about-text-header fw-bold">Send a Message</p>
+
+                    <!-- Form -->
+                    <form action="">
+                      <!-- 2 column grid layout with text inputs for the first and last names -->
+
+                      <div class="row">
+                        <div class="col-12 col-md-6 mb-4">
+                          <div class="inputBox">
+                            <input
+                              type="text"
+                              required="required"
+                              name="first-name"
+                            />
+                            <label class="fw-bolder" for="first-name"
+                              >Full Name</label
+                            >
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6 mb-4">
+                          <div class="inputBox">
+                            <input
+                              type="text"
+                              required="required"
+                              name="last-name"
+                            />
+                            <label class="fw-bolder" for="last-name"
+                              >Last Name</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 2 column grid layout with text inputs for the first and last names -->
+
+                      <!-- 2 column grid layout with text inputs for the email and phone number -->
+
+                      <div class="row">
+                        <div class="col-12 col-md-6 mb-4">
+                          <div class="inputBox">
+                            <input
+                              type="text"
+                              required="required"
+                              name="email"
+                            />
+                            <label class="fw-bolder" for="email"
+                              >Email Address</label
+                            >
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6 mb-4">
+                          <div class="inputBox">
+                            <input
+                              type="text"
+                              required="required"
+                              name="phone"
+                            />
+                            <label class="fw-bolder" for="phone"
+                              >Mobile Number</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 2 column grid layout with text inputs for the email and number -->
+
+                      <!-- 1 column grid layout with text input for textarea -->
+
+                      <div class="inputBox">
+                        <textarea
+                          rows="4"
+                          required="required"
+                          name="message"
+                        ></textarea>
+                        <label class="fw-bolder" for="message"
+                          >Write a message here...</label
+                        >
+                      </div>
+
+                      <!-- 1 column grid layout with text input for the textarea -->
+
+                      <div class="inputBox">
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-secondary">
+                          Send
+                        </button>
+                      </div>
+                    </form>
+
+                    <!-- Form -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

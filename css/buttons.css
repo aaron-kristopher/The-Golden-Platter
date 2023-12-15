@@ -5,6 +5,7 @@
     padding-inline: 1.5rem;
 }
 
+
 .btn-lg-font {
     font-size: 1rem; 
 }
@@ -34,3 +35,13 @@
 .btn-circle:hover {
     background: #DFC081;
 }
+
+.btn-dark {
+    background-color: #0B1315;
+    color: #FFFBFF;
+}
+
+.btn-dark:hover {
+    background-color: rgba(11, 19, 21, 0.9);
+    color: rgba(236, 236, 236, 0.9);
+}   
