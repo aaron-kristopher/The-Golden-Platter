@@ -50,3 +50,67 @@
     transform: translateY(-20px);
 }
 
+.contactForm .inputBox .inputWithIcon {
+    position: relative;
+}
+
+.contactForm .inputWithIcon input {
+    padding-left: 35px;
+    border-color: #D4AA54;
+}
+
+.contactForm .inputWithIcon .inputIcon {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFBFF;
+    transition: 0.5s;
+}
+
+.contactForm .inputWithIcon .inputIcon .bi-clock {
+    top: 20px;  
+}
+
+.contactForm .inputWithIcon span.cover {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    padding: 5px 5px 0px;
+    pointer-events: none;
+    background-color: #0b1315
+}
+.contactForm .inputWithIcon span bi-chevron-down {
+    cursor: pointer;
+
+}
+
+.contactForm .inputWithIcon input ~ label {
+    left: 35px;
+    transition: 0.5s;
+}
+
+.inputBox .default-cover {
+    width: 100%;
+    height: 20px;
+    top: 20px;
+    position: absolute;
+    background-color: #0b1315;
+    z-index: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputBox input:focus ~ .default-cover,
+.inputBox input:valid ~ .default-cover {
+    display: none;
+    transition: 0.5;
+}
+
+.inputBox .covered-label {
+    z-index: 2;
+}

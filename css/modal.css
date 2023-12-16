@@ -1,0 +1,12 @@
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem auto -1rem -1rem;
+}
+
+.reservation-form-header {
+    font-size: 1.825rem;
+}
+
+.reservation-form-content {
+    font-size: 1.125rem;
+}
