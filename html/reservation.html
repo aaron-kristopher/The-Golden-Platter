@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Reservation Modal -->
+
+    <div
+      class="modal fade justify-content-center"
+      id="reservation-modal"
+      tabindex="-1"
+      aria-labelledby="reservation-modal-label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content bg-black">
+          <div class="modal-header container border-0 pt-5">
+            <button
+              type="button"
+              class="btn-close btn-close-white close"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body container pt-5">
+            <img class="reservation-line" src="../imgs/reservation-line.svg" />
+            <div class="row">
+              <h6
+                class="modal-title text-uppercase text-secondary"
+                id="modal-title"
+              >
+                The Golden Platter
+              </h6>
+            </div>
+            <div class="row pt-5 mt-5">
+              <div class="col-10 col-lg-4">
+                <p class="reservation-form-header">Make a Reservation</p>
+                <div class="contactForm">
+                  <form action="">
+                    <div class="row">
+                      <!-- DatePicker -->
+                      <div class="my-0">
+                        <div class="inputBox inputWithIcon">
+                          <input type="date" required="required" name="date" />
+                          <label class="fw-bolder covered-label" for="date"
+                            >Date</label
+                          >
+                          <div class="default-cover"></div>
+                          <i class="bi bi-calendar inputIcon"></i>
+                          <span class="cover"
+                            ><i class="bi bi-chevron-down"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- TimePicker -->
+                    <div class="row">
+                      <div class="my-0">
+                        <div class="inputBox inputWithIcon">
+                          <input type="time" required="required" name="time" />
+                          <label class="fw-bolder covered-label" for="time"
+                            >Time</label
+                          >
+                          <div class="default-cover"></div>
+                          <div class="default-cover"></div>
+                          <i class="bi bi-clock inputIcon"></i>
+                          <span class="cover"
+                            ><i class="bi bi-chevron-down"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Phone Number -->
+                    <div class="row">
+                      <div class="my-0">
+                        <div class="inputBox inputWithIcon">
+                          <input
+                            type="text"
+                            required="required"
+                            name="contact-number"
+                          />
+                          <label class="fw-bolder" for="contact-number"
+                            >Contact No.</label
+                          >
+                          <i class="bi bi-telephone inputIcon"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Party Size -->
+                    <div class="row">
+                      <div class="mb-5">
+                        <div class="inputBox inputWithIcon">
+                          <input
+                            type="text"
+                            required="required"
+                            name="party-size"
+                          />
+                          <label class="fw-bolder" for="party-size"
+                            >Party Size</label
+                          >
+                          <i class="bi bi-person-add inputIcon"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <button class="btn btn-outlined">Book Now</button>
+                  </form>
+                </div>
+              </div>
+
+              <!-- Location Information -->
+              <div class="col-lg-5 ms-lg-5 ps-lg-5 pt-5 mt-5 pt-lg-0 mt-lg-0">
+                <p class="reservation-form-header">Located in San Carlos</p>
+                <p class="pt-3 reservation-form-content">
+                  <span class="fw-bolder">420 Borce Street</span><br />(Between
+                  Rizal St. & Araneta St.)<br />123-456-7890<br />TheGldnP@gmail.com
+                </p>
+                <p class="reservation-form-header pt-5">Hours of Operation</p>
+                <p class="pt-3 reservation-form-content">
+                  <span class="fw-bolder">Monday to Saturday</span><br />5:30 pm
+                  to 10:00 pm<br /><span class="fw-bolder">Sunday</span
+                  ><br />6:00 pm to 11:00 pm
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reservation Modal -->
+  </body>
+</html>
