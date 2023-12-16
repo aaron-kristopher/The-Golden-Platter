@@ -10,3 +10,10 @@
 .reservation-form-content {
     font-size: 1.125rem;
 }
+
+.reservation-line {
+    position: absolute;
+    right: 0;
+    top: 0rem;
+    height: 100vh;
+}
