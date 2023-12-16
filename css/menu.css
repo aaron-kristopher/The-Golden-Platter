@@ -1,5 +1,9 @@
-.font{
-    font-family: ;
+body {
+    overflow-x: hidden;
+}
+
+.cursive-font{
+    font: 2rem Luxurious Script, cursive;
 }
 
 .offer-bg {
@@ -28,51 +32,53 @@
     position: absolute;
     width: 10%;
     height: 2px;
+    top: 1.5rem;
     background: #D4AA54;
+    box-shadow: var(--shadow-elevation-high);
 }
 
 .menu-service-line::before {
     height: 2px;
-    left: 22rem;
-    top: 1rem;
+    left: 20rem;
 }
 
 .menu-service-line::after {
     height: 2px;
-    right: 22rem;
-    top: 1rem;
+    right: 20.5rem;
 }
 
 @media screen and (max-width: 1399px) {
     .menu-service-line::before {
-        left: 18rem;
+        left: 16rem;
     }
     .menu-service-line::after {
-        right: 18rem;
+        right: 16.5rem;
     }
 }
 @media screen and (max-width: 1199px) {
     .menu-service-line::before {
-        left: 14rem;
+        left: 12rem;
     }
     .menu-service-line::after {
-        right: 14rem;
+        right: 12rem;
     }
 }
 @media screen and (max-width: 993px) {
     .menu-service-line::before {
-        left: 10rem;
+        left: 7rem;
     }
     .menu-service-line::after {
-        right: 10rem;
+        right: 7rem;
     }
 }
 @media screen and (max-width: 767px) {
     .menu-service-line::before {
-        left: 6rem;
+        top: 1.125rem;
+        left: 3.825rem;
     }
     .menu-service-line::after {
-        right: 6rem;
+        top: 1.125rem;
+        right: 3.825rem;
     }
 }@media screen and (max-width: 575px){
     .menu-service-line::before {
@@ -84,11 +90,11 @@
     }
 }@media screen and (max-width: 414px) {
     .menu-service-line::before {
-        left: -2rem;
+        left: 1rem;
     }
 
     .menu-service-line::after  {
-        right: -2rem;
+        right: 1.5rem;
     }
 }
 
@@ -99,19 +105,19 @@
     position: absolute;
     width: 10%;
     height: 2px;
+    top: 1.3125rem;
     background: #D4AA54;
+    box-shadow: var(--shadow-elevation-high);
 }
 
 .menuSub-service-line::before {
     height: 2px;
     left: 12rem;
-    top: 1rem;
 }
 
 .menuSub-service-line::after {
     height: 2px;
     right: 12rem;
-    top: 1rem;
 }
 @media screen and (max-width: 1399px) {
     .menuSub-service-line::before {
@@ -131,34 +137,34 @@
 }
 @media screen and (max-width: 993px) {
     .menuSub-service-line::before {
-        left: 6rem;
+        left: 10rem;
     }
     .menuSub-service-line::after {
-        right: 6rem;
+        right: 10rem;
     }
 }
 @media screen and (max-width: 767px) {
     .menuSub-service-line::before {
-        left: 4rem;
+        left: 7rem;
     }
     .menuSub-service-line::after {
-        right: 4rem;
+        right: 7rem;
     }
 }@media screen and (max-width: 575px){
     .menuSub-service-line::before {
-        left: 2rem;
+        left: 5.25rem;
     }
 
     .menuSub-service-line::after  {
-        right: 2rem;
+        right: 5.25rem;
     }
 }@media screen and (max-width: 414px) {
     .menuSub-service-line::before {
-        left: -2rem;
+        left: 2.825rem;
     }
 
     .menuSub-service-line::after  {
-        right: -2rem;
+        right: 2.825rem;
     }
 }
 
@@ -167,68 +173,68 @@
 .menuSubLG-service-line::after {
     content: "";
     position: absolute;
-    width: 8%;
+    width: 10%;
     height: 2px;
+    top: 1.5rem;
     background: #D4AA54;
+    box-shadow: var(--shadow-elevation-high);
 }
 
 .menuSubLG-service-line::before {
     height: 2px;
-    left: 8rem;
-    top: 1rem;
+    left: 12rem;
 }
 
 .menuSubLG-service-line::after {
     height: 2px;
-    right: 8rem;
-    top: 1rem;
+    right: 12rem;
 }
 @media screen and (max-width: 1399px) {
     .menuSubLG-service-line::before {
-        left: 6rem;
+        left: 7rem;
     }
     .menuSubLG-service-line::after {
-        right: 6rem;
+        right: 7rem;
     }
 }
 @media screen and (max-width: 1199px) {
+    .menuSubLG-service-line::before {
+        left: 7rem;
+    }
+    .menuSubLG-service-line::after {
+        right: 7rem;
+    }
+}
+@media screen and (max-width: 993px) {
+    .menuSubLG-service-line::before {
+        left: 8rem;
+    }
+    .menuSubLG-service-line::after {
+        right: 8rem;
+    }
+}
+@media screen and (max-width: 767px) {
     .menuSubLG-service-line::before {
         left: 4rem;
     }
     .menuSubLG-service-line::after {
         right: 4rem;
     }
-}
-@media screen and (max-width: 993px) {
-    .menuSubLG-service-line::before {
-        left: 2rem;
-    }
-    .menuSubLG-service-line::after {
-        right: 2rem;
-    }
-}
-@media screen and (max-width: 767px) {
-    .menuSubLG-service-line::before {
-        left: 0rem;
-    }
-    .menuSubLG-service-line::after {
-        right: 0rem;
-    }
 }@media screen and (max-width: 575px){
     .menuSubLG-service-line::before {
-        left: -2rem;
+        left: 2.825rem;
     }
 
     .menuSubLG-service-line::after  {
-        right: -2rem;
+        right: 2.825rem;
     }
 }@media screen and (max-width: 414px) {
     .menuSubLG-service-line::before {
-        left: -4rem;
+        left: 0rem;
     }
 
     .menuSubLG-service-line::after  {
-        right: -4rem;
+        right: 0rem;
     }
 }
 
@@ -236,36 +242,30 @@
 /* Double Lines */
 .list-service-line {
     position: relative; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 .list-service-line::before,
 .list-service-line::after {
     content: "";
     position: absolute;
-    top: 50%;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 1.5px;
     background: #D4AA54;
     transform: translateY(-50%);
     margin: 0;
     padding: 0;
+    box-shadow: var(--shadow-elevation-high)
 }
 
  .list-service-line::before {
-    height: 1px;
-    top: 1rem;
-    margin-top: .4rem;
+    top: 0.85rem;
     
 }
 
 .list-service-line::after {
-    height: px;
-    top: 1rem;
+
+    top: 1.25rem;
 }
 
 .true-taste-bg {
@@ -291,4 +291,7 @@
         padding-left: 0;
     }
 
+.menu-header {
+    font-size: 1.825rem;
+}
     
