@@ -3,6 +3,7 @@
     font-size: .825rem;
     padding-block: 0.5rem;
     padding-inline: 1.5rem;
+    box-shadow: var(--shadow-elevation-medium);
 }
 
 
@@ -15,6 +16,7 @@
     border-color: #D4AA54;
     color: #D4AA54;
     border-width: 2px;
+    
 }
 
 .btn-outlined:hover {

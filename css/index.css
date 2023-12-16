@@ -32,6 +32,14 @@
     
 }
 
+.hero:nth-child(1) {
+    transition-delay: 800ms;
+}
+
+.hero:nth-child(2) {
+    transition-delay: 1.2s;
+}
+
 /* HERO SECTION */
 
 
@@ -47,10 +55,12 @@
     background: #D4AA54;
 }
 
-.img-line-top::before, .img-line-top::after {
+.img-line-top::before, 
+.img-line-top::after {
     content: "";
     position: absolute;
     background: #D4AA54;
+    
 }
 
 .img-line-top::before {
@@ -71,13 +81,28 @@
     transform: rotate(0deg);
 }
 
+.hero-lower-line::before,
+.hero-upper-line::before,
+.about-line::before,
 .img-line-bottom::before, 
 .img-line-bottom::after, 
+.img-line-top::before,
+.img-line-top::after,
 .service-line::before, 
-.service-line::after {
+.service-line::after,
+.chef-service-line::before,
+.chef-service-line::after,
+.dining-line::before,
+.dining-line::after {
     content: "";
     position: absolute;
     background: #D4AA54;
+    box-shadow:
+        1px 2px 2px hsl(0deg 0% 0% / 0.40),
+        2px 4px 4px hsl(0deg 0% 0% / 0.40),
+        4px 8px 8px hsl(0deg 0% 0% / 0.40),
+        8px 16px 16px hsl(0deg 0% 0% / 0.40),
+        16px 32px 32px hsl(0deg 0% 0% / 0.40);
 }
 
 .img-line-bottom::before {
@@ -96,6 +121,10 @@
     left: 1rem;
     transform-origin: 50% 100%;
     transform: rotate(0deg);
+}
+
+.about:nth-child(2) {
+    transition-delay: 200ms;
 }
 
 /* ABOUT JOURNEY SECTION */
@@ -181,17 +210,22 @@
     bottom: 0;
 }
 
+.menu:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.menu:nth-child(3) {
+    transition-delay: 400ms;
+}
+
 /* OUR MENU SECTION */
 
 /* INFORMATION SECTION */
 
 .dining-line::before,
 .dining-line::after {
-    content: "";
-    position: absolute;
     width: 50%;
     height: 2px;
-    background: #D4AA54;
     left: 25%;
 }
 
@@ -215,11 +249,8 @@
 
 .chef-service-line::before,
 .chef-service-line::after {
-    content: "";
-    position: absolute;
     width: 25%;
     height: 2px;
-    background: #D4AA54;
 }
 
 .chef-service-line::before {
@@ -293,4 +324,7 @@
 
 .fa-regular {
     color: #D4AA54;
+    filter: drop-shadow(
+        3.4px 6.7px 6.7px hsl(0deg 0% 0% / 0.40)
+      );
 }
