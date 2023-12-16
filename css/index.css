@@ -328,3 +328,11 @@
         3.4px 6.7px 6.7px hsl(0deg 0% 0% / 0.40)
       );
 }
+
+.chef-section:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.chef-section:nth-child(3) {
+    transition-delay: 400ms;
+}

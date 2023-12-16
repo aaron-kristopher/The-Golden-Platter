@@ -2,8 +2,9 @@
     box-shadow: var(--shadow-elevation-high);
 }
 
-.nav-link:hover,.nav-link .active{
-    color: #D4AA54;
+.nav-link:hover,
+.active{
+    color: #D4AA54 !important;
     
 }
 

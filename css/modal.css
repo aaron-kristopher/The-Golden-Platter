@@ -17,3 +17,10 @@
     top: 0rem;
     height: 100vh;
 }
+
+@media screen and (max-width: 767px) {
+    .reservation-line {
+        display: none;
+    }
+    
+}

@@ -295,3 +295,26 @@ body {
     font-size: 1.825rem;
 }
     
+.menu-item:nth-child(2) {
+    transition-delay: 100ms;
+}
+
+.menu-item:nth-child(3) {
+    transition-delay: 200ms;
+}
+
+.menu-item:nth-child(4) {
+    transition-delay: 300ms;
+}
+
+.menu-item:nth-child(5) {
+    transition-delay: 400ms;
+}
+
+.menu-item:nth-child(6) {
+    transition-delay: 500ms;
+}
+
+.menu-item:nth-child(7) {
+    transition-delay: 600ms;
+}
